@@ -21,7 +21,7 @@ steps:
 # Execucao dos testes unitarios
 - task: DotNetCoreCLI@2
   inputs:
-    command: test
+    command: dotnet test
     projects: '**/*tests/*.csproj'
     arguments: '--configuration $(buildConfiguration)'
 
