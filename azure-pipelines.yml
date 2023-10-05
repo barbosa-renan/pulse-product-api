@@ -24,6 +24,7 @@ steps:
     command: test
     projects: '**/*tests/*.csproj'
     arguments: '--configuration $(buildConfiguration)'
+    displayName: 'executing tests'
 
 # Compilacao do projeto
 - script: dotnet build --configuration $(buildConfiguration)
