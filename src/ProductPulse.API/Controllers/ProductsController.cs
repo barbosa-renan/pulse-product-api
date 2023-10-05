@@ -112,6 +112,7 @@ namespace ProductPulse.Controllers
         [HttpDelete("{productId}")]
         [SwaggerOperation(Summary = "Remove a product", Description = "Remove a existent product by Id.")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IActionResult> DeleteProduct(int productId)
         {
             var isProductCreated = await _productService.DeleteProduct(productId);
