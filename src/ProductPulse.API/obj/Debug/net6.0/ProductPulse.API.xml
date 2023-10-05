@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ProductPulse.API</name>
+    </assembly>
+    <members>
+        <member name="M:ProductPulse.Controllers.ProductsController.GetProductList">
+            <summary>
+            Get the list of product
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ProductPulse.Controllers.ProductsController.GetProductById(System.Int32)">
+            <summary>
+            Get product by id
+            </summary>
+            <param name="productId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ProductPulse.Controllers.ProductsController.CreateProduct(ProductPulse.Core.Models.Product)">
+            <summary>
+            Add a new product
+            </summary>
+            <param name="product"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ProductPulse.Controllers.ProductsController.UpdateProduct(ProductPulse.Core.Models.Product)">
+            <summary>
+            Update the product
+            </summary>
+            <param name="product"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ProductPulse.Controllers.ProductsController.DeleteProduct(System.Int32)">
+            <summary>
+            Delete product by id
+            </summary>
+            <param name="productId"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

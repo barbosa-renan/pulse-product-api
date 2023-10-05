@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ProductPulse.Services/1.0.0": {
+        "dependencies": {
+          "ProductPulse.Core": "1.0.0"
+        },
+        "runtime": {
+          "ProductPulse.Services.dll": {}
+        }
+      },
+      "ProductPulse.Core/1.0.0": {
+        "runtime": {
+          "ProductPulse.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ProductPulse.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProductPulse.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
