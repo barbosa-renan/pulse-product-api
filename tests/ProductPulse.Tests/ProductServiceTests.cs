@@ -43,7 +43,7 @@ namespace ProductPulse.Tests
 
             unitOfWorkMock.Setup(u => u.Products.GetById(productId)).ReturnsAsync(productToDelete);
             unitOfWorkMock.Setup(u => u.Products.Delete(It.IsAny<Product>()));
-            unitOfWorkMock.Setup(u => u.Save()).Returns(1);
+            unitOfWorkMock.Setup(u => u.Save()).Returns(0);
 
             // Act
             var result = await productService.DeleteProduct(productId);
